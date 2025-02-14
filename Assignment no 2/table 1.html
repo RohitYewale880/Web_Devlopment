@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100;
+            margin: auto;
+        }
+        td,th {
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr style="background-color: blue;">
+            <td colspan="4">Date</td>
+        </tr>
+
+        <tr style="background-color: aquamarine;">
+            <td colspan="2">Day</td>
+            <td colspan="2">year</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td rowspan="2">0</td>
+            <td rowspan="2">20</td>
+            <td>21</td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">june</td>
+            <td colspan="2">2000</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">july</td>
+            <td colspan="2">2001</td>
+        </tr>
+
+    </table>
+</body>
+</html>
